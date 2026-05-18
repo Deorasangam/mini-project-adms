@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket Booking System</title>
+
+    <style>
+
+    body{
+        font-family: Arial;
+        padding: 40px;
+    }
+
+    input{
+        padding:10px;
+        margin:10px;
+    }
+
+    button{
+        padding:10px;
+    }
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+<body>
+
+<div class="container">
+
+<h1>Ticket Booking System</h1>
+
+<input
+id="userId"
+type="number"
+placeholder="Enter User ID">
+
+<input
+id="seatId"
+type="number"
+placeholder="Enter Seat ID">
+
+<button onclick="bookSeat()">
+Book Seat
+</button>
+
+<h2>Available Seats</h2>
+
+<div id="seatList"></div>
+
+</div>
+
+</body>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
